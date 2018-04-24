@@ -1,0 +1,77 @@
+.section-download {
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaec;
+    height: 100vh;
+}
+
+.high-block {
+}
+
+.bg-logo {
+    overflow: hidden;
+    padding: 70px 15px;
+}
+
+.bg-logo h1 {
+    transform: translateX(200%);
+    transition: .5s ease-out;
+}
+
+.bg-logo h1.-open {
+    transform: translateX(0);
+}
+
+.block-download {
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.form-license {
+    margin: 10px;
+    width: 200px;
+}
+
+span {
+    font-size: 13px;
+}
+
+.icon-app {
+    position: relative;
+    background: rgb(255, 239, 94); /* Old Browsers */
+    background: -webkit-linear-gradient(top left,rgb(255, 239, 94),rgb(240, 55, 165)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top left,rgb(255, 239, 94),rgb(240, 55, 165)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top left,rgb(255, 239, 94),rgb(240, 55, 165)); /*Fx 3.6-15*/
+    background: linear-gradient(top left, rgb(255, 239, 94), rgb(240, 55, 165)); /*Standard*/
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.icon-app img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.button-download {
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    padding: 5px 25px;
+    background-color: #1DB954;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.button-download:hover {
+    transform: scale(1.1);
+}

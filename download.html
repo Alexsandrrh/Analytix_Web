@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Started</title>
+    <!--link fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <!--link css-->
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/container.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/section-download.css">
+</head>
+<body>
+    <section class="section-download flex">
+        <div class="block-download flex">
+            <div class="high-block flex">
+                <div class="content flex col">
+                    <div class="icon-app">
+                        <img src="assets/img/logo-white.svg" alt="">
+                    </div>
+                    <div class="form-license flex row">
+                        <input type="checkbox"><span>By download Analytix_Web, you agree to our Terms & Privacy Policy.</span>
+                    </div>
+                    <a class="button-download" href="" download>Download</a>
+                </div>
+                <div class="bg-logo">
+                    <h1>Analytix_Web</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            let logoText = $('.bg-logo h1');
+            logoText.addClass('-open');
+        });
+    </script>
+</body>
+</html>
