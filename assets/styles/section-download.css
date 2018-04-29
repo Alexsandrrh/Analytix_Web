@@ -14,6 +14,7 @@
 }
 
 .bg-logo h1 {
+    font-size: 48px;
     transform: translateX(200%);
     transition: .5s ease-out;
 }
@@ -31,7 +32,7 @@
 }
 
 .form-license {
-    margin: 10px;
+    margin: 10px 0;
     width: 200px;
 }
 
